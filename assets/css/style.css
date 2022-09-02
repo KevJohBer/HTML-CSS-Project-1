@@ -8,6 +8,7 @@
     position: relative;
     float: left;
     padding-top: 10px;
+    padding-left: 10px;
     letter-spacing: 5px;
     font-size: 40px;
 }
@@ -43,5 +44,46 @@ nav li a {
 nav li a:hover {
     background-color: #AE1F2B;
     color: white;
-    font-size: 35px;
+    font-size: 31px;
 }
+
+/* about */
+
+#about-img {
+    background: url(../images/Red\ keyboard\ dark.JPEG);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+#info1 {
+    position:relative;
+    width: 30%;
+    padding-left: 15px;
+    color: white;
+    font-family:source serif pro, sans-serif;
+    float: left;
+}
+
+#info2 {
+    position: absolute;
+    width: 20%;
+    padding-right: 15px;
+    color: white;
+    font-family:source serif pro, sans-serif;
+    text-align: right;
+    bottom: 8px;
+    right: 10px;
+}
+
+#about h2 {  
+    font-family: bebas neue, sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+
