@@ -232,6 +232,16 @@ nav li a:hover {
     border: 1px #4a4a4a solid;
 }
 
+#no-rooms-container {
+    padding-top: 10px;
+}
+
+#no-rooms {
+    font-family: source serif pro, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
 #walking-distance {
     width: 100%;
 }
@@ -255,6 +265,17 @@ nav li a:hover {
 .uber h3 {
     display: inline-block;
 }
+
+.uber img {
+    height: 400px;
+}
+
+#uber div {
+    width: 10%;
+    display: inline-block;
+    padding-left: 15%;
+    padding-right: 15%;
+} 
 
 
 
