@@ -249,7 +249,8 @@ nav li a:hover {
 }
 
 .walking-distance img {
-    height: 21vh;
+    height: 30vh;
+    width: 100%;
 }
 
 .walking-distance {
@@ -264,8 +265,8 @@ nav li a:hover {
 }
 
 .uber img {
-    height: 21vh;
-    width: 50%;
+    height: 30vh;
+    width: 100%;
 }
 
 .uber {
@@ -277,7 +278,45 @@ nav li a:hover {
     display: inline-block;
 }
 
+/* sign up */
 
+#sign-up {
+    color: #4a4a4a;
+}
+
+#sign-up-logo {
+    font-family: bebas neue, sans-serif;
+    color: #4a4a4a;
+    letter-spacing: 5px;
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#sign-up img {
+    width: 50%;
+    float: left;
+}
+
+#data-input-container {
+    width: 50%;
+    height: auto;
+    text-align: center;    
+    float: right;
+}
+
+#data-input {
+    display: inlin-block;
+}
+
+#data-input input {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin-top: 40px;
+    border-radius: 0;
+    font-size: 30px;
+}
 
 
 
