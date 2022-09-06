@@ -193,18 +193,19 @@ nav li a:hover {
 #grand-hyatt p {
     margin: 0 auto;
     text-align: center;
-    width: 33%;
+    width: 34%;
     height: 400px;
     float: left;
     font-family: source serif pro, sans-serif;
     font-size: 30px;
     word-spacing: 5px;
     line-height: 50px;
+    padding-left: 20px ;
 }
 
 #view-rooms {
     float: right;
-    width: 33%;
+    width: 30%;
     height: 400px;
     float: left;
     display: table;
@@ -243,39 +244,39 @@ nav li a:hover {
 }
 
 #walking-distance {
-    width: 100%;
+    width: 50%;
+    float: left;
 }
 
 .walking-distance img {
-    height: 400px;
+    height: 21vh;
 }
 
-#walking-distance div {
-    width: 10%;
-    display: inline-block;
-    padding-left: 15%;
-    padding-right: 15%;
+.walking-distance {
+    width: 50%;
+    float: left;
+
 } 
 
-
 #uber {
-    width: 100%;
-}
-
-.uber h3 {
-    display: inline-block;
+    width: 50%;
+    float: right;
 }
 
 .uber img {
-    height: 400px;
+    height: 21vh;
+    width: 50%;
 }
 
-#uber div {
-    width: 10%;
-    display: inline-block;
-    padding-left: 15%;
-    padding-right: 15%;
+.uber {
+    width: 50%;
+    float: right;
 } 
+
+.uber, .walking-distance {
+    display: inline-block;
+}
+
 
 
 
