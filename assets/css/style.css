@@ -155,7 +155,7 @@ nav li a:hover {
 #ticket-button a:hover {
     text-decoration: none;
     color: #4a4a4a;
-    background-color: white;
+    background-color: #fff4ea;
     border: 1px #4a4a4a solid;
 }
 
@@ -229,7 +229,7 @@ nav li a:hover {
 #view-rooms a:hover {
     text-decoration: none;
     color: #4a4a4a;
-    background-color: white;
+    background-color: #fff4ea;
     border: 1px #4a4a4a solid;
 }
 
@@ -289,7 +289,9 @@ nav li a:hover {
 
 #sign-up img {
     width: 50%;
+    height: 525px;
     float: left;
+    padding-bottom: 50px;
 }
 
 #data-input-container {
@@ -301,18 +303,20 @@ nav li a:hover {
 
 #data-input {
     display: inline-block;
+    height: 525px;
+    padding-bottom: 50px ;
 }
 
 .data-input {
     width: 500px;
     height: 50px;
-    background-color: lavender;
+    background-color: #fff4ea;
     text-align: center;
     margin-top: 40px;
     border-radius: 0;
     border-style: none;
     font-size: 30px;
-    font-family: bebas neue, sans-serif;
+    font-family: bebas neue, sans-serif;;
 }
 
 .data-input::selection {
@@ -332,3 +336,31 @@ nav li a:hover {
     cursor: pointer;
 }
 
+/* contact */
+
+footer {
+    color: #4a4a4a;
+    text-align: center;
+    font-family: bebas neue, sans-serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+#contact-logo {
+    padding-top: 50px;
+    color: #4a4a4a;
+    letter-spacing: 5px;
+    font-size: 40px;
+    width: 100%;
+}
+
+#social-media-links a {
+    color: #4a4a4a;
+    padding: 0 15px;
+    transition: 0.5s;
+    padding-bottom: 50px;
+}
+
+#social-media-links a:hover {
+    font-size: 50px;
+}
