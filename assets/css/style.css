@@ -20,6 +20,7 @@
 
 header {
     font-family: Bebas Neue, sans-serif;
+    height: 75px;
 }
 
 nav ul{
@@ -90,6 +91,10 @@ nav li a:hover {
 
 /* event info */
 
+#tickets {
+    height: 500px;
+}
+
 #tickets-logo {
     font-family: bebas neue, sans-serif;
     color: #4a4a4a;
@@ -101,6 +106,7 @@ nav li a:hover {
 
 #event-info {
     width: 100%;
+    height: 330px;
 }
 
 #event-info-list {
@@ -135,12 +141,10 @@ nav li a:hover {
 }
 
 #ticket-button {
-    display: table;
-}
-
-#ticket-button h3 {
     display: table-cell;
     vertical-align: middle;
+    margin: 0 auto;
+    line-height: 250px;
 }
 
 #ticket-button a {
@@ -150,6 +154,10 @@ nav li a:hover {
     border-radius: 5px;
     color: white;
     transition: 0.5s;
+
+    font-family: bebas neue, sans-serif;
+    font-size: 30px;
+    letter-spacing: 10px;
 }
 
 #ticket-button a:hover {
@@ -160,6 +168,11 @@ nav li a:hover {
 }
 
 /* stay */
+
+#stay {
+    width: 100%;
+    height: 1200px;
+}
 
 #stay-logo {
     font-family: bebas neue, sans-serif;
@@ -182,6 +195,7 @@ nav li a:hover {
 
 #grand-hyatt  {
     width: 100%;
+    height: 500px;
 }
 
 #grand-hyatt img {
@@ -197,7 +211,7 @@ nav li a:hover {
     height: 400px;
     float: left;
     font-family: source serif pro, sans-serif;
-    font-size: 30px;
+    font-size: 1.7vw;
     word-spacing: 5px;
     line-height: 50px;
     padding-left: 20px ;
@@ -277,6 +291,8 @@ nav li a:hover {
 
 #sign-up {
     color: #4a4a4a;
+    width: 100%;
+    height: 650px;
 }
 
 #sign-up-logo {
@@ -289,9 +305,8 @@ nav li a:hover {
 
 #sign-up img {
     width: 50%;
-    height: 525px;
+    height: auto;
     float: left;
-    padding-bottom: 50px;
 }
 
 #data-input-container {
@@ -303,8 +318,7 @@ nav li a:hover {
 
 #data-input {
     display: inline-block;
-    height: 525px;
-    padding-bottom: 50px ;
+    height: auto;
 }
 
 .data-input {
@@ -312,15 +326,11 @@ nav li a:hover {
     height: 50px;
     background-color: #fff4ea;
     text-align: center;
-    margin-top: 40px;
     border-radius: 0;
     border-style: none;
     font-size: 30px;
-    font-family: bebas neue, sans-serif;;
-}
-
-.data-input::selection {
-    border-style: none;
+    font-family: bebas neue, sans-serif;
+    margin-top: 2vw;
 }
 
 #sign-up-button {
@@ -344,6 +354,7 @@ footer {
     font-family: bebas neue, sans-serif;
     font-size: 32px;
     letter-spacing: 2px;
+    height: 500px;
 }
 
 #contact-logo {
@@ -352,6 +363,9 @@ footer {
     letter-spacing: 5px;
     font-size: 40px;
     width: 100%;
+    padding: 0;
+    height: 50px;
+    margin: 0;
 }
 
 #social-media-links a {
@@ -364,3 +378,97 @@ footer {
 #social-media-links a:hover {
     font-size: 50px;
 }
+
+/* medium size screens */
+
+@media screen and (max-width: 1380px) {
+    .textbox { 
+        width: 33%;
+        height: 250px;
+        float: left;
+        text-align: center;
+        font-family:source serif pro, sans-serif;
+        font-size: 30px;
+        color: #4a4a4a;
+        padding-bottom: 0;
+    }
+
+    #ticket-button {
+        width: 100%;
+    }
+
+
+    /* stay */
+
+    #stay {
+        height: 150vw;
+    }
+
+    .uber, .walking-distance {
+        display: block;
+        padding-bottom: 70px;
+    }
+
+    .uber {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    .walking-distance {
+        width: 100%;
+        float: none;
+        margin: auto;
+    }
+
+    
+    .walking-distance img {
+        height: 30vw;
+        width: 100%;
+    }
+    
+    .uber img {
+        height: 30vw;
+        width: 100%;
+    }
+    
+    /* sign-up */
+
+    /* sign up */
+
+    #sign-up {
+        height: 1000px;
+    }
+
+    #sign-up-logo {
+        text-align: center;
+    }
+
+    #sign-up div {
+        width: 100%;
+    }
+
+    #data-input {
+        margin: auto;
+        width: 100%;
+    }
+
+    #sign-up img {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+
+    .data-input {
+        width: 50%;
+    }
+
+    #footer {
+        margin-top: 30px;
+    }
+
+    /* contact */
+
+    
+}
+
