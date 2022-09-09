@@ -1,12 +1,9 @@
 /* header */
 
-
-
 #logo {
     padding: 0;
     margin: 0;
     position: relative;
-    float: left;
     padding-top: 10px;
     padding-left: 10px;
     letter-spacing: 5px;
@@ -19,20 +16,23 @@
 }
 
 header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     font-family: Bebas Neue, sans-serif;
-    height: 75px;
 }
 
 nav ul{
-    float: right;
-    width: 50%;
-    text-align: right;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
 }
 
 nav ul li {
-    display: inline-block;
-    width: 15%;
-    text-align: center;
+    list-style-type: none;
+
 }
 
 nav li a {
@@ -40,6 +40,7 @@ nav li a {
     color: #4a4a4a;
     font-size: 30px;
     transition: 0.5s;
+    justify-content: space-between;
 }
 
 nav li a:hover {
@@ -60,27 +61,25 @@ nav li a:hover {
     width: 100%;
     height: 500px;
     overflow: hidden;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 #info1 {
-    position:relative;
     width: 30%;
     padding-left: 15px;
     color: white;
     font-family:source serif pro, sans-serif;
-    float: left;
 }
 
 #info2 {
-    position: absolute;
-    width: 20%;
+    width: 30vw;
     padding-right: 15px;
     color: white;
     font-family:source serif pro, sans-serif;
-    text-align: right;
     bottom: 8px;
     right: 10px;
+    align-self: flex-end;
 }
 
 #about h2 {  
@@ -91,11 +90,8 @@ nav li a:hover {
 
 /* event info */
 
-#tickets {
-    height: 500px;
-}
-
 #tickets-logo {
+    display: flex;
     font-family: bebas neue, sans-serif;
     color: #4a4a4a;
     letter-spacing: 5px;
@@ -105,8 +101,10 @@ nav li a:hover {
 }
 
 #event-info {
+    display: flex;
     width: 100%;
-    height: 330px;
+    flex-wrap:wrap;
+    justify-content: center;
 }
 
 #event-info-list {
@@ -116,9 +114,7 @@ nav li a:hover {
 }
 
 .textbox { 
-    width: 25%;
-    height: 300px;
-    float: left;
+    width: 400px;
     text-align: center;
     font-family:source serif pro, sans-serif;
     font-size: 30px;
@@ -141,10 +137,9 @@ nav li a:hover {
 }
 
 #ticket-button {
-    display: table-cell;
-    vertical-align: middle;
-    margin: 0 auto;
-    line-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #ticket-button a {
@@ -171,7 +166,13 @@ nav li a:hover {
 
 #stay {
     width: 100%;
-    height: 1200px;
+}
+
+#stay h2 {
+    font-family: bebas neue, sans-serif;
+    color: #4a4a4a;
+    letter-spacing: 5px;
+    font-size: 30px;
 }
 
 #stay-logo {
@@ -193,41 +194,45 @@ nav li a:hover {
     font-size: 30px;
 }
 
+#grand-hyatt-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #grand-hyatt  {
     width: 100%;
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#grand-hyatt h2, #grand-hyatt hr {
+    width: 100%;
 }
 
 #grand-hyatt img {
-    width: 33%;
-    height: 400px;
-    float: left;
+    width: 600px;
 }
 
 #grand-hyatt p {
-    margin: 0 auto;
     text-align: center;
-    width: 34%;
-    height: 400px;
-    float: left;
+    width: 600px;
     font-family: source serif pro, sans-serif;
-    font-size: 1.7vw;
+    font-size: 30px;
     word-spacing: 5px;
     line-height: 50px;
-    padding-left: 20px ;
 }
 
 #view-rooms {
-    float: right;
-    width: 30%;
-    height: 400px;
-    float: left;
-    display: table;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #view-rooms h2 {
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
 }
 
@@ -248,51 +253,23 @@ nav li a:hover {
 }
 
 #walking-distance {
-    width: 50%;
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
-.walking-distance img {
-    height: 30vh;
-    width: 100%;
-}
-
-.walking-distance {
-    width: 50%;
-    float: left;
-
-} 
 
 #uber {
-    width: 50%;
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.uber img {
-    height: 30vh;
-    width: 100%;
-}
-
-.uber {
-    width: 50%;
-    float: right;
-} 
-
-.uber, .walking-distance {
-    display: inline-block;
-    padding-bottom: 70px;
-}
-
-.hotels {
-    padding-bottom: 10px;
-}
 
 /* sign up */
 
 #sign-up {
     color: #4a4a4a;
     width: 100%;
-    height: 650px;
 }
 
 #sign-up-logo {
@@ -303,22 +280,25 @@ nav li a:hover {
     width: 100%;
 }
 
+#sign-up-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #sign-up img {
-    width: 50%;
-    height: auto;
-    float: left;
+    width: 800px;
 }
 
 #data-input-container {
-    width: 50%;
-    height: auto;
+    width: 800px;
+    display: flex;
+    justify-content: center;
     text-align: center;    
-    float: right;
 }
 
 #data-input {
     display: inline-block;
-    height: auto;
 }
 
 .data-input {
@@ -330,7 +310,7 @@ nav li a:hover {
     border-style: none;
     font-size: 30px;
     font-family: bebas neue, sans-serif;
-    margin-top: 2vw;
+    margin-top: 30px;
 }
 
 #sign-up-button {
@@ -355,6 +335,9 @@ footer {
     font-size: 32px;
     letter-spacing: 2px;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #contact-logo {
@@ -379,96 +362,21 @@ footer {
     font-size: 50px;
 }
 
-/* medium size screens */
-
-@media screen and (max-width: 1380px) {
-    .textbox { 
-        width: 33%;
-        height: 250px;
-        float: left;
-        text-align: center;
-        font-family:source serif pro, sans-serif;
-        font-size: 30px;
-        color: #4a4a4a;
-        padding-bottom: 0;
+@media (max-width:600px) {
+    nav ul {
+        visibility: hidden;
     }
 
-    #ticket-button {
+    #about img {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
         width: 100%;
     }
 
-
-    /* stay */
-
-    #stay {
-        height: 150vw;
-    }
-
-    .uber, .walking-distance {
-        display: block;
-        padding-bottom: 70px;
-    }
-
-    .uber {
+    #info1, #info2 {
         width: 100%;
-        float: none;
-        margin: auto;
+        padding: 0;
+        margin: 0;
     }
-
-    .walking-distance {
-        width: 100%;
-        float: none;
-        margin: auto;
-    }
-
-    
-    .walking-distance img {
-        height: 30vw;
-        width: 100%;
-    }
-    
-    .uber img {
-        height: 30vw;
-        width: 100%;
-    }
-    
-    /* sign-up */
-
-    /* sign up */
-
-    #sign-up {
-        height: 1000px;
-    }
-
-    #sign-up-logo {
-        text-align: center;
-    }
-
-    #sign-up div {
-        width: 100%;
-    }
-
-    #data-input {
-        margin: auto;
-        width: 100%;
-    }
-
-    #sign-up img {
-        float: none;
-        display: block;
-        margin: auto;
-    }
-
-    .data-input {
-        width: 50%;
-    }
-
-    #footer {
-        margin-top: 30px;
-    }
-
-    /* contact */
-
-    
 }
-
