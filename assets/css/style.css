@@ -407,4 +407,6 @@ footer {
         height: auto;
     }
 
-    #social-media-links a:hover { font-size: 32px;}
+    #social-media-links a:hover { 
+        font-size: 32px;
+    }
