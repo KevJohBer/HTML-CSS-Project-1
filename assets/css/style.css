@@ -258,6 +258,10 @@ nav li a:hover {
     justify-content: center;
 }
 
+#uber img {
+    height: 450px;
+}
+
 #uber {
     display: flex;
     flex-wrap: wrap;
@@ -363,20 +367,44 @@ footer {
 }
 
 @media (max-width:600px) {
+
+    * {
+        text-align: center;
+    }
     nav ul {
         visibility: hidden;
     }
 
-    #about img {
-        display: flex;
-        flex-direction: column;
-        justify-content: left;
+    #about-img {
+        display: block;
         width: 100%;
     }
 
+    #about h2 {
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        letter-spacing: 0;
+    }
+
     #info1, #info2 {
+        display: block;
         width: 100%;
         padding: 0;
         margin: 0;
     }
-}
+
+    #grand-hyatt p {
+        width: 100vw;
+    }
+
+    .data-input {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 30px;
+        height: auto;
+    }
+
+    #social-media-links a:hover { font-size: 32px;}
