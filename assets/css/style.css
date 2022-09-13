@@ -178,6 +178,10 @@ nav li a:hover {
     padding-bottom: 50px;
 }
 
+#stay h3 {
+    color: #4a4a4a;
+}
+
 #view-rooms a {
     text-decoration: none;
     background-color: #AE1F2B;

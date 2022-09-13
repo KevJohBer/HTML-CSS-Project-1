@@ -10,6 +10,8 @@ Users of this website will be able to find information about what time the event
 
 ### navigation
 
+<img src="assets/images/navigation.jpg">
+
 The navigation shows in the top right corner of the page, it features links which takes you to the ticket, stay, signup, and contact sections respectively
 
 ### Ticket section
@@ -48,22 +50,24 @@ The contact section contains contact information to Sweetkeebz as a company. It 
 
 * The images in the project were not loading, I fixed this also by removing an unexpected forward slash on every image directory.
 
+* Some elements were overlapping eachother when using smaller screens. This was fixed my using flexbox instead of floats.
+
 
 ## Validator Testing
 
 * HTML 
 
-    The HTML file passes all tests except for 1, it does not want to leave the action field empty but there is no directory for the data input to go.
+    The HTML file passes all tests, using the W3C tester, except for 1, it does not want to leave the action field empty but there is no directory for the data input to go.
 
 * CSS 
 
-    The CSS is still not tested as it does not load when i post it.
+    The CSS code is validated with W3C (jigsaw) tester without errors.
 
 * Accessibility
 
     Used lighthouse to make sure the site it readable and accessible
 
-    [image]()
+    <img src="assets/images/Accessability.jpg">
 
 ## Deployment
 
@@ -77,7 +81,7 @@ Here is the live link https://kevjohber.github.io/HTML-CSS-Project-1/
 ## Credits
 
 ### Content
-* the social media links were taken from the Love Running Project
+* The social media links were taken from the Love Running Project
 
 ### Media
-* images were taken from google images
+* Images were taken from google images
