@@ -384,6 +384,28 @@ footer {
     font-size: 50px;
 }
 
+@media (max-width:818px) {
+    #sign-up img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px){
+    .walking-distance img {
+        width: 100%;
+    }
+    
+    .uber img {
+        width: 100%;
+        height: auto;
+    }
+
+    #grand-hyatt img {
+        width: 100%;
+    }
+
+}
+
 @media (max-width:600px) {
 
     * {
@@ -413,7 +435,7 @@ footer {
     }
 
     #grand-hyatt p {
-        width: 100vw;
+        width: 100%;
     }
 
     .data-input {
