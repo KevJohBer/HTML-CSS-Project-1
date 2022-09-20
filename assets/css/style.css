@@ -15,6 +15,10 @@
     text-decoration: none;
 }
 
+.icon {
+    display: none;
+}
+
 header {
     width: 100%;
     display: flex;
@@ -431,8 +435,25 @@ footer {
     * {
         text-align: center;
     }
+
+    .icon {
+        padding-top: 10px;
+        display: block;
+        font-size: 40px;
+        overflow: hidden;
+        color: #4a4a4a;
+    }
+
+    .navbar {
+        display: none;
+        width: 50%;
+        text-align: right;       
+    }
     
-    
+    .nav-menu {
+        display: block;
+        width: 100%;
+    }
 
     #about-img {
         display: block;

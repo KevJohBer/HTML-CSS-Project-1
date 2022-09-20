@@ -10,18 +10,39 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&family=Source+Serif+Pro:wght@300&display=swap');
         </style>
+    <script>
+        myFunction() {
+            let x = document.getElementsByClassName('navbar'); 
+            if (x.style.display === 'block') {
+                x.style.display = 'none'
+            } else {
+                x.style.display = 'block'
+            }
+        }
+    </script>
 </head>
 <body>
     <header>
         <h1 id="logo"><a href="index.html">SweetKeebz</a></h1>
-        <nav>
-            <ul>
-                <li><a href="#tickets">Tickets </a></li>
-                <li><a href="#grand-hyatt">Stay</a></li>
-                <li><a href="#data-input-container">Signup</a></li>
-                <li><a href="#contact-logo">Contact </a></li>
-            </ul>    
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#tickets" class="nav-link">Tickets </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#grand-hyatt" class="nav-link">Stay</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#data-input-container" class="nav-link">Signup</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-logo" class="nav-link">Contact </a>
+                </li>
+            </ul>                          
         </nav>
+        <a href="" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a> 
     </header>
     <section id="about">
         <div id="about-img">
