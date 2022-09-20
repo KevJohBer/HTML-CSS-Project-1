@@ -162,6 +162,20 @@ nav li a:hover {
     border: 1px #4a4a4a solid;
 }
 
+#vid {
+    text-align: center;
+    font-family: bebas neue, sans-serif;
+    color: #4a4a4a;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+}
+
 /* stay */
 
 #stay {
@@ -390,6 +404,12 @@ footer {
     }
 }
 
+@media (max-width:633px) {
+    iframe {
+        width: 100%;
+    }
+}
+
 @media (max-width: 620px){
     .walking-distance img {
         width: 100%;
@@ -411,9 +431,8 @@ footer {
     * {
         text-align: center;
     }
-    nav ul {
-        visibility: hidden;
-    }
+    
+    
 
     #about-img {
         display: block;
