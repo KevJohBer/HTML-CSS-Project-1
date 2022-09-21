@@ -26,10 +26,6 @@ header {
     flex-wrap: wrap;
 }
 
-nav {
-    display: block;
-}
-
 nav ul{
     width: 50vw;
     display: flex;
@@ -449,11 +445,18 @@ footer {
         text-align: right;
     }
 
-    #navbar {
+    .navbar {
         display: none;
         width: 100%;
         position: relative;  
         order: 3;    
+    }
+
+    .navbar-responsive {
+        display: block;
+        width: 100%;
+        position: relative;  
+        order: 3; 
     }
     
     .nav-menu {

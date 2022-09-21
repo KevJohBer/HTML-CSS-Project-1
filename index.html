@@ -11,22 +11,20 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&family=Source+Serif+Pro:wght@300&display=swap');
         </style>
     <script>
-        if (window.matchMedia("(max-width: 600px)").matches) {
-            function myFunction() {
-                    var x = document.querySelector("nav"); 
-                    if (x.style.display === 'block') {
-                        x.style.display = 'none'
-                    } else {
-                    x.style.display = 'block'
-                    }
-            }
+        function myFunction() {
+                let x = document.getElementById("navbar"); 
+                if (x.className === 'navbar') {
+                    x.className += '-responsive'
+                } else {
+                x.className = 'navbar'
+                }
         }
     </script>
 </head>
 <body>
     <header>
         <h1 id="logo"><a href="index.html">SweetKeebz</a></h1>
-        <nav id="navbar">
+        <nav id="navbar" class="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#tickets" class="nav-link">Tickets </a>
