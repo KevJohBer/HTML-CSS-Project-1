@@ -499,4 +499,12 @@ footer {
     #social-media-links a:hover { 
         font-size: 32px;
     }
+
+    #view-rooms {
+        width: 100%;
+    }
+
+    #email {
+        font-size: 25px;
+    }
 }
