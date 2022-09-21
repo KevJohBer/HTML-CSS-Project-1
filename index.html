@@ -11,12 +11,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed&family=Source+Serif+Pro:wght@300&display=swap');
         </style>
     <script>
-        myFunction() {
-            let x = document.getElementsByClassName('navbar'); 
-            if (x.style.display === 'block') {
-                x.style.display = 'none'
-            } else {
-                x.style.display = 'block'
+        if (window.matchMedia("(max-width: 600px)").matches) {
+            function myFunction() {
+                    var x = document.querySelector("nav"); 
+                    if (x.style.display === 'block') {
+                        x.style.display = 'none'
+                    } else {
+                    x.style.display = 'block'
+                    }
             }
         }
     </script>
@@ -24,7 +26,7 @@
 <body>
     <header>
         <h1 id="logo"><a href="index.html">SweetKeebz</a></h1>
-        <nav class="navbar">
+        <nav id="navbar">
             <ul class="nav-menu">
                 <li class="nav-item">
                     <a href="#tickets" class="nav-link">Tickets </a>
@@ -40,7 +42,7 @@
                 </li>
             </ul>                          
         </nav>
-        <a href="" class="icon" onclick="myFunction()">
+        <a href="javascript:void(0)" class="icon" onclick= "myFunction()">
                 <i class="fa fa-bars"></i>
             </a> 
     </header>
