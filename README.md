@@ -82,6 +82,8 @@ Here is the live link https://kevjohber.github.io/HTML-CSS-Project-1/
 
 ### Content
 * The social media links were taken from the Love Running Project
+* Hamburger menus was taken from W3schools tutorial on navbars
 
 ### Media
 * Images were taken from google images
+* video in ticket section was taken from TaehaTypes
